@@ -1,6 +1,8 @@
 '''
 # Cleaning the data
 # read data in pandas dataframe
+import pandas as pd
+import numpy as np
 data = pd.read_csv("austin_weather.csv")
 
 # drop (delete) the unnecessary columns in the data
